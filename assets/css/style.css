@@ -1,0 +1,526 @@
+@font-face {
+  font-family: "Cardo";
+  src: url("Cardo-Italic.woff2") format("woff2"), url("Cardo-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cardo";
+  src: url("Cardo-Regular.woff2") format("woff2"), url("Cardo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cardo";
+  src: url("Cardo-Bold.woff2") format("woff2"), url("Cardo-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Bold.woff2") format("woff2"), url("Raleway-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("OpenSans-Italic.woff2") format("woff2"), url("OpenSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("OpenSans-Regular.woff2") format("woff2"), url("OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Light.woff2") format("woff2"), url("Raleway-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Regular.woff2") format("woff2"), url("Raleway-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-SemiBold.woff2") format("woff2"), url("Raleway-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+.bannersection {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bannersection .overlayer {
+  background-color: #32354f;
+  background-size: cover;
+}
+.bannersection .overlayer .container .headertop {
+  border-bottom: 1px solid #505269 !important;
+  height: 100px;
+  max-height: 100%;
+  padding: 20px 0px;
+}
+.bannersection .overlayer .container .headertop .topinner .navbar ul > li {
+  position: relative;
+}
+.bannersection .overlayer .container .headertop .topinner .navbar ul > li:hover {
+  background-color: rgba(255, 0, 255, 0.63);
+}
+.bannersection .overlayer .container .headertop .topinner .navbar ul > li > Ul {
+  flex-direction: column;
+  display: none !important;
+}
+.bannersection .overlayer .container .headertop .topinner .navbar ul > li:hover ul {
+  position: absolute;
+  display: block !important;
+  width: 300px;
+  background-color: rgba(255, 0, 255, 0.63);
+}
+.bannersection .overlayer .container .headertop .topinner .navbar ul > li > ul > li > ul > li {
+  list-style: none;
+  margin-left: 200px;
+}
+.bannersection .overlayer .container .headertop .topinner .navbar ul > li > ul > li > ul > li a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.bannersection .overlayer .container .headertop .topinner .navbar ul li ul li ul {
+  display: none;
+}
+.bannersection .overlayer .container .headertop .topinner .navbar ul li ul li ul:hover {
+  display: flex;
+  flex-direction: column;
+}
+.bannersection .overlayer .container .headertop .topinner .navbar a {
+  color: #cbccd3;
+}
+.bannersection .overlayer .container .headertop .topinner .navbar a:hover {
+  background-color: rgba(255, 0, 255, 0.63);
+}
+.bannersection .overlayer .container .headertext {
+  padding-bottom: 150px;
+}
+.bannersection .overlayer .container .headertext .heading {
+  width: 870px;
+  max-width: 100%;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 150px;
+  font-size: 65pt;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+.bannersection .overlayer .container .headertext .para {
+  width: 915px;
+  max-width: 100%;
+  padding-top: 45px;
+  margin: auto;
+  color: #ffffff;
+  font-family: "Raleway";
+  text-align: center;
+  font-size: 100%;
+}
+.bannersection .overlayer .container .headertext a {
+  width: 200px;
+  max-width: 100%;
+  height: 45px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13pt;
+  font-family: "Raleway";
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #e84545;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 75px;
+  padding-top: 10px;
+}
+
+.servicesection .container .servicearea {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.servicesection .container .servicearea .mainbox {
+  width: 100%;
+  padding: 22px 33px;
+}
+@media only screen and (min-width: 576px) {
+  .servicesection .container .servicearea .mainbox {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .servicesection .container .servicearea .mainbox {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .servicesection .container .servicearea .mainbox {
+    width: 33.33%;
+  }
+}
+.servicesection .container .servicearea .mainbox .box .image {
+  width: 90px;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 32px;
+}
+.servicesection .container .servicearea .mainbox .box .image img {
+  width: 90px;
+  height: 90px;
+  size: cover;
+}
+.servicesection .container .servicearea .mainbox .box .textbox {
+  margin: auto;
+  font-size: 14pt;
+  text-align: center;
+}
+.servicesection .container .servicearea .mainbox .box .textbox h3 {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 11px;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+.servicesection .container .servicearea .mainbox .box .textbox p {
+  text-align: center;
+  margin: 0px;
+  margin-top: 11px;
+  font-family: "Raleway";
+}
+
+.container-fluid .productsection .coverbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container-fluid .productsection .coverbox .over {
+  width: 100%;
+  max-width: 100%;
+  border: 0.5px solid #ffffff;
+  border-spacing: 0px;
+  position: relative;
+}
+.container-fluid .productsection .coverbox .over .overflow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 83, 80, 0.8196078431);
+  top: 0px;
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-fluid .productsection .coverbox .over:hover .overflow {
+  display: flex;
+}
+@media only screen and (min-width: 576px) {
+  .container-fluid .productsection .coverbox .over {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container-fluid .productsection .coverbox .over {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container-fluid .productsection .coverbox .over {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container-fluid .productsection .coverbox .over {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.container-fluid .productsection .coverbox .over img {
+  width: 480px;
+  max-width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.directorsection .container .directordetail {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.directorsection .container .directordetail .dbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (min-width: 576px) {
+  .directorsection .container .directordetail .dbox {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .directorsection .container .directordetail .dbox {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .directorsection .container .directordetail .dbox {
+    width: 25%;
+  }
+}
+.directorsection .container .directordetail .dbox .faceid {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.directorsection .container .directordetail .dbox .textid {
+  font-family: "Raleway";
+}
+.directorsection .container .directordetail .dbox .textid h2 {
+  text-transform: capitalize;
+  margin: 0px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+.directorsection .container .directordetail .dbox .textid h4 {
+  color: #f39c9c;
+  text-transform: uppercase;
+  font-size: 13pt;
+  margin: 0px;
+  margin-top: 7px;
+}
+.directorsection .container .directordetail .dbox .textid p {
+  margin: 0rem;
+  margin: 27px 0px;
+}
+.directorsection .container .directordetail .dbox img {
+  width: 270px;
+  max-width: 100%;
+}
+.directorsection .container .directordetail .dbox .socialid {
+  display: flex;
+}
+.directorsection .container .directordetail .dbox .socialid a {
+  color: #c6cacc;
+  display: block;
+  padding-top: 5px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: 2px solid #e8ecee;
+  font-size: 14pt;
+}
+
+.adsection {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.adsection .models {
+  width: 100%;
+}
+@media only screen and (min-width: 576px) {
+  .adsection .models {
+    width: 50%;
+  }
+}
+.adsection .models .model1 {
+  height: 100%;
+}
+.adsection .models .model1 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.adsection .quotes {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 116px;
+  padding-top: 116px;
+  padding-bottom: 100px !important;
+  background-color: #53354a;
+  background-size: cover;
+}
+@media only screen and (min-width: 576px) {
+  .adsection .quotes {
+    width: 50%;
+  }
+}
+.adsection .quotes .text {
+  font-family: "Cardo";
+  font-style: italic;
+  color: #ffffff;
+  font-size: 36px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.adsection .quotes .writer h5 {
+  margin-top: 15pt;
+  font-family: "Raleway";
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.downloadsection .container .downloadarea {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.downloadsection .container .downloadarea .textarea {
+  text-align: center;
+}
+.downloadsection .container .downloadarea .textarea h2 {
+  font-size: 28pt;
+  margin: 0px;
+  margin: 8px;
+  text-transform: capitalize;
+  font-family: "Raleway";
+  font-weight: 300;
+}
+.downloadsection .container .downloadarea .textarea p {
+  font-size: 13pt;
+  margin: 0px;
+  margin: 8px;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+@media only screen and (min-width: 576px) {
+  .downloadsection .container .downloadarea .textarea h2 {
+    font-size: 16pt;
+  }
+  .downloadsection .container .downloadarea .textarea p {
+    font-size: 10pt;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .downloadsection .container .downloadarea .textarea h2 {
+    font-size: 20pt;
+  }
+  .downloadsection .container .downloadarea .textarea p {
+    font-size: 12pt;
+  }
+}
+.downloadsection .container .downloadarea .downloadlink a {
+  width: 280px;
+  max-width: 100%;
+  height: 45px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13pt;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: 600;
+  background-color: #e84545;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 10px;
+}
+
+.contactsection {
+  background-color: #3a3e64;
+}
+.contactsection .container .contactarea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 65px;
+  font-size: 14px;
+  text-align: center;
+}
+.contactsection .container .contactarea .social {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-bottom: 85px;
+  align-items: center;
+}
+.contactsection .container .contactarea label {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+.contactsection .container .contactarea address {
+  color: #9d9fb2;
+}
+.contactsection .container .contactarea .socialid {
+  display: flex;
+}
+.contactsection .container .contactarea .socialid a {
+  color: #c6cacc;
+  display: block;
+  padding-top: 5px;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: 2px solid #e8ecee;
+  font-size: 14pt;
+}
+.contactsection .container .contactarea p {
+  color: #9d9fb2;
+  font-family: "Raleway";
+}
+
+.closingsection {
+  background-color: #313454;
+}
+.closingsection .container .closingtext {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  color: #75767a;
+  text-align: center;
+  font-family: "Raleway";
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.closingsection .container .closingtext .fa-heart {
+  color: #e84545;
+  font-size: 12px;
+}
+.closingsection .container .closingtext span {
+  color: #ffffff;
+  font-family: "Open Sans";
+}/*# sourceMappingURL=style.css.map */
